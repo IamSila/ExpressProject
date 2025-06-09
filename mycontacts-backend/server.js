@@ -5,6 +5,7 @@ const app = express();
 
 const port = 5000;
 
+// routes
 app.use("/api/contacts", require("./routes/contactRoutes"));
 
 app.listen(port, () => {
